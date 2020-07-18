@@ -35,10 +35,8 @@ h1{
 #for{
     width: 20%;
     color: rgb(0, 0, 255);
-    display: flex;
     text-align: center;
-    display: flex;
-    align-items: center;
+    display: inline-block;
 
 }
 .body{
