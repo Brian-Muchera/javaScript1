@@ -1,4 +1,21 @@
 h1{
     text-align: center;
-    background-image: url("./images/blue.jpg");
+    background-image: url("./images/232674085.jpg");
+}
+#all{
+    display: flex;
+    flex-direction: row;
+    float: inline-end;
+}
+#name{
+    width: 500px;
+    border: 15px  brown;
+    padding: 50px;
+    margin: 20px;
+}
+#names{
+    width: 500px;
+    border: 15px  brown;
+    padding: 50px;
+    margin: 20px;
 }
