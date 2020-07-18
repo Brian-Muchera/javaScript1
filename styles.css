@@ -11,19 +11,32 @@ h1{
     flex-direction: row;
     float: inline-end;
     font-family: 'Grenze Gotisch', cursive;
+    background-image: url("./images/download222.jpeg");
 }
 #name{
     width: 500px;
-    border: 15px  brown;
+    border: 15px  rgb(0, 0, 255);
     padding: 50px;
     margin: 20px;
 }
 #names{
     width: 500px;
-    border: 15px  brown;
+    border: 15px  rgb(0, 0, 255);
     padding: 50px;
     margin: 20px;
 }
+#namees{
+    width: 500px;
+    border: 15px rgb(0, 0, 255);
+    padding: 50px;
+    margin: 20px;
+}
+#for{
+    width: 20%;
+    color: rgb(0, 0, 255);
+    display: flex;
+
+}
 .body{
-    background-image: url("./images/ghana2\ \(1\).jpg");
+    background-image: url("./images/broo.jpg");
 }
