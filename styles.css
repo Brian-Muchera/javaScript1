@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Red+Rose&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200;300;400&family=Red+Rose&display=swap');
 
 h1{
     text-align: center;
@@ -35,8 +36,30 @@ h1{
     width: 20%;
     color: rgb(0, 0, 255);
     display: flex;
+    text-align: center;
+    display: flex;
+    align-items: center;
 
 }
 .body{
     background-image: url("./images/broo.jpg");
+}
+
+#find{
+    font-family: 'Grenze Gotisch', cursive;
+}
+#copy{
+    text-align: center;
+    color: whitesmoke;
+}
+.sub{
+    flex-direction: column;
+    display: flex;
+}
+#yea{
+    width: 35%;
+}
+#yeah{
+    background-image: url("./images/depositphotos_59577853-stock-photo-background-from-leaves-of-pale.jpg"); 
+
 }
