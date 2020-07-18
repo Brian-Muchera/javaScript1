@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Red+Rose&display=swap');
 
 h1{
     text-align: center;
@@ -9,6 +10,7 @@ h1{
     display: flex;
     flex-direction: row;
     float: inline-end;
+    font-family: 'Grenze Gotisch', cursive;
 }
 #name{
     width: 500px;
