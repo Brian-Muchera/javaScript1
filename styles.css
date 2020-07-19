@@ -12,7 +12,7 @@ h1{
     flex-direction: row;
     float: inline-end;
     font-family: 'Grenze Gotisch', cursive;
-    background-image: url("./images/download222.jpeg");
+    background-image: url("./images/ghanaculkture.jpg");
 }
 #name{
     width: 500px;
@@ -36,10 +36,10 @@ h1{
     width: 20%;
     color: rgb(0, 0, 255);
     text-align: center;
-    display: inline-block;
+    display: inline-block1;
 
 }
-.body{
+.body{ 
     background-image: url("./images/broo.jpg");
 }
 
