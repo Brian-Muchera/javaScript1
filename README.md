@@ -29,8 +29,8 @@
     *JAVASCRIPT
 
  ## contact information
-   email:mucherabrian2@gmail.com
-   phone:0704435621
+   -email:mucherabrian2@gmail.com
+   -phone:0704435621
 
 ## Live link to the project
   https://brian-muchera.github.io/javaScript1/
