@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    <script src="css/js/scripts.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
     <div class="body">
         <h1>Akan Names-Ghanian Culture</h1>
         <div class="jumbotron">
@@ -61,29 +64,32 @@
                 so as to know the name.Its quite simple,no complicated information is required.<em>Go on!!</em></p>
         </div>
 
-        <label class="label">Gender</label>
-        <div class="rdio rdio-default">
-            <input type="radio" name="gender" id="male" value="Male">
-            <label for="male">Male</label>
-        </div>
-        <div class="rdio rdio-default">
-            <input type="radio" name="gender" value="Female" id="female">
-            <label for="female">Female</label>
-        </div>
-        <br>
-        <br>
-
-        <div class="form-group">
-            <form class="form" onsubmit="getAkanName()">
+        <div class="col-sm-4">
+            <h2 class="h2"><strong>Input Details</strong></h2>
+            <div class="form-group">
+              <form class="form" onsubmit="getAkanName()">
                 <label for="date" class="input-group">Date of Birth:</label>
-                <input type="date" class="form-control mb-2 mr-sm-2" placeholder="mm/dd/yyyy" id="myBirthDate"
-                    name="date" autocomplete="off">
+                <input type="date" class="form-control mb-2 mr-sm-2" placeholder="mm/dd/yyyy" id="myBirthDate" name="date" autocomplete="off">
+            </div>
+            <label class="label">Gender</label>
+            <div class="rdio rdio-default">
+              <input type="radio" name="gender" id="male" value="Male">
+              <label for="male">Male</label>
+            </div>
+            <div class="rdio rdio-default">
+              <input type="radio" name="gender" value="Female" id="female">
+              <label for="female">Female</label>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary mb-2" onclick="getAkanName()">Submit</button>
+            <div class="output">
+              <p id="message"></p>
+            </div>
+          </div>
         </div>
-
-        <button type="button" class="btn btn-primary mb-2" onclick="getAkanName()">Submit</button>
-        <div class="output">
-            <p id="message"></p>
-        </div>
+      </div>
+  
     </div>
 
     <div id="yeah">
@@ -95,8 +101,6 @@
         </div>
     </div>
     </div>
-    <script src="js/scripts.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 
 
 </body>
